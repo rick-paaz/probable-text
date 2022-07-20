@@ -18,7 +18,7 @@ public class OurHashMap<K, V> implements OurMap<K,V> {
   }
 
   // Instance variables
-  private static final int TABLE_SIZE = 20000;
+  private static final int TABLE_SIZE = 10000;
   private LinkedList<HashNode>[] lists;
   int n;
   
