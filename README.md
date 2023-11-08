@@ -1,1 +1,3 @@
-# probable-txt
+Generate probabalistic text using Rick's algorithm and OurHashMap.
+
+Contributer: Your name
