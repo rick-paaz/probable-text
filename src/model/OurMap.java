@@ -1,4 +1,4 @@
-package model;
+ ackage model;
 /**
  * interface OurMap has these four of the major methods found in java.util.Map:
  * 
@@ -17,7 +17,7 @@ package model;
 public interface OurMap<K, V> {
 
   // If the key is mapped to a value, replace the current mapped value
-  // with value and that current value that was previously mapped to the key.
+  // with value and return that current value that was previously mapped to the key.
   public V put(K key, V value);
   
   // Return the number of mappings put in an OurMap object.
